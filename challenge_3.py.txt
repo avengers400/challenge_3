@@ -1,0 +1,20 @@
+### I have tried to fetch the last value of d ..please check my json.data ..is it this as expected....the output is coming as the key not the value..
+# the logci looks correct for me..i am trying
+#to get the value of key d
+
+
+
+import json
+
+with open('./data.json') as retrieve_values:
+    content = json.load(retrieve_values)
+
+
+def values():
+    result1 = content["a"]
+    for i in result1:
+        result2 = i["c"]
+        for x in result2:
+            result3 = x[0]
+            print(result3)
+values()
