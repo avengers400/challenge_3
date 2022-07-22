@@ -1,6 +1,6 @@
 ### objects = {“a”:{“b”:{“c”:”d”}}}
 
-##taking every element as input and converting to nested dictionary as above
+##taking every element as input and converting to nested dictionary as above and sending the output as input to dict function
 
 d = {}
 num = int(input("Enter the dictionaries: "))
