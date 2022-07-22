@@ -1,3 +1,7 @@
+### objects = {“a”:{“b”:{“c”:”d”}}}
+
+##taking every element as input and converting to nested dictionary as above
+
 d = {}
 num = int(input("Enter the dictionaries: "))
 for i in range(num):
